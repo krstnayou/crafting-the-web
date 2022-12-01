@@ -1,0 +1,195 @@
+body {
+  background-color: rgb(255, 250, 224);
+  /* margin: 7%; */
+  margin: 0;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  border: 1px solid red;
+}
+
+#container {
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". .";
+}
+
+#containertwo {
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px 0px;
+  grid-template-areas: ". . .";
+}
+
+#left {
+  float: left;
+  width: 40%;
+  margin-left: 10%;
+}
+
+#right {
+  float: right;
+  width: 40%;
+  margin-right: 10%;
+}
+
+header {
+  position: fixed;
+  background-color: red;
+  width: 100%;
+}
+/* header:hover {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 250, 224);
+} */
+
+h1 {
+  font-family: kepler-std-condensed-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  color: rgb(255, 250, 224);
+}
+
+h3 {
+  font-family: kepler-std-condensed-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  color: rgb(255, 0, 0);
+  margin-top: 20px;
+}
+
+h4 {
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  color: rgb(255, 0, 0);
+  margin-top: 20px;
+}
+
+hr {
+  stroke: red;
+}
+
+#first {
+  margin-top: 30%;
+  padding-top: 5%;
+  padding: 20%;
+  border: 1px solid red;
+}
+
+#first:hover {
+  background-color: rgb(255, 169, 169);
+  color: rgb(255, 250, 224);
+}
+
+#second {
+  margin-top: 30%;
+  padding-top: 5%;
+  padding: 20%;
+  border: 1px solid red;
+}
+
+#second:hover {
+  background-color: rgb(255, 169, 169);
+  color: rgb(255, 250, 224);
+}
+
+#third {
+  padding: 20%;
+  border: 1px solid red;
+}
+
+#third:hover {
+  background-color: rgb(255, 169, 169);
+  color: rgb(255, 250, 224);
+}
+
+#fourth {
+  padding: 20%;
+  border: 1px solid red;
+}
+
+#fourth:hover {
+  background-color: rgb(255, 169, 169);
+  color: rgb(255, 250, 224);
+}
+
+#fifth {
+  padding: 20%;
+  border: 1px solid red;
+}
+
+#fifth:hover {
+  background-color: rgb(255, 169, 169);
+  color: rgb(255, 250, 224);
+}
+
+#sixth {
+  padding: 20%;
+  border: 1px solid red;
+}
+
+#sixth:hover {
+  background-color: rgb(255, 169, 169);
+  color: rgb(255, 250, 224);
+}
+
+#seventh {
+  padding: 20%;
+  border: 1px solid red;
+}
+
+#seventh:hover {
+  background-color: rgb(255, 169, 169);
+  color: rgb(255, 250, 224);
+}
+
+#eigth {
+  padding: 20%;
+  border: 1px solid red;
+}
+
+#eigth:hover {
+  background-color: rgb(255, 169, 169);
+  color: rgb(255, 250, 224);
+}
+
+#ninth {
+  padding: 20%;
+  border: 1px solid red;
+}
+
+#ninth:hover {
+  background-color: rgb(255, 169, 169);
+  color: rgb(255, 250, 224);
+}
+
+#tenth {
+  padding: 20%;
+  border: 1px solid red;
+}
+
+#tenth:hover {
+  background-color: rgb(255, 169, 169);
+  color: rgb(255, 250, 224);
+}
+
+#eleventh {
+  padding: 20%;
+  border: 1px solid red;
+}
+
+#eleventh:hover {
+  background-color: rgb(255, 169, 169);
+  color: rgb(255, 250, 224);
+}
