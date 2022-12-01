@@ -231,3 +231,23 @@ h4 {
   background-color: rgb(207, 207, 205);
   color: rgb(255, 250, 224);
 }
+
+@media only screen and (max-width: 800px) {
+  #container {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    gap: 0px 0px;
+    grid-template-areas: ". ";
+  }
+
+  .containertwo {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    gap: 10px 10px;
+    grid-template-areas: ". ";
+  }
+}
