@@ -42,7 +42,7 @@ a {
 
 #div1 {
   display: inline-block;
-  animation: marquee 10s linear infinite;
+  animation: marquee 14s linear infinite;
 }
 
 @keyframes marquee {
@@ -249,5 +249,9 @@ h4 {
     grid-template-rows: 3fr;
     gap: 10px 10px;
     grid-template-areas: ". ";
+  }
+
+  h1 {
+    font-size: 28px;
   }
 }
