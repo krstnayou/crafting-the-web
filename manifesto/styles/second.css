@@ -28,10 +28,10 @@ footer {
 }
 
 #maindiv:hover {
-  background-color: rgb(207, 207, 205);
+  background-color: rgb(158, 158, 153);
 }
 
-#div1 h4:hover {
+a:hover {
   color: rgb(255, 250, 224);
 }
 
